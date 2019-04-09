@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>lottery</title>
+    <style>
+      img {
+        border: 5px solid transparent;
+      }
+
+      .run {
+        border: 7px solid rgb(214, 44, 14);
+        transition: all 0.3s;
+        box-sizing: border-box;
+        box-shadow: tomato;
+      }
+
+      .run-none {
+        transition: all 0.8s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-1 mb-4">
+          <img id="i1" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i2" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i3" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i4" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i5" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i6" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i7" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i8" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i9" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i10" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i11" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1" style="padding:0 10px 0;">
+          <img id="i12" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6">
+          <img id="i30" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6 mb-4 text-right">
+          <img id="i13" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6">
+          <img id="i29" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6 mb-4 text-right">
+          <img id="i14" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6">
+          <img id="i28" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-6 mb-4 text-right">
+          <img id="i15" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1 mb-4">
+          <img id="i27" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i26" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i25" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i24" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i23" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i22" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i21" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i20" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i19" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i18" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1">
+          <img id="i17" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+        <div class="col-1" style="padding:0 10px 0;">
+          <img id="i16" src="http://fakeimg.pl/70x70/282828/EAE0D0/" alt="" />
+        </div>
+      </div>
+      <div class="col-12">
+        <button
+          id="start"
+          type="button"
+          class="btn btn-secondary rounded btn-block"
+          style=" height:50px;"
+          value="start"
+        >
+          Start
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var img = document.getElementsByTagName("img");
+      var start = document.getElementById("start");
+      var patterns = [];
+      var pattern;
+      var first = Math.floor(Math.random() * 30);
+      var steps = 0;
+
+      for (var i = 1; i <= 30; i++) {
+        pattern = document.getElementById("i" + i);
+        patterns.push(pattern);
+      }
+      console.log(patterns);
+
+      start.onclick = dostart;
+      function dostart() {
+        steps = 70 + Math.floor(Math.random() * 10);
+        patterns[first].className = "run";
+        run();
+      }
+
+      function run() {
+        patterns[first].className = "run-none";
+        first++;
+        if (first > patterns.length - 1) {
+          first = 0;
+        }
+        patterns[first].className = "run";
+
+        if (steps > 0) {
+          steps--;
+          setTimeout(run, 90);
+        }
+      }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
